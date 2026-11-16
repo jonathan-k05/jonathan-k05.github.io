@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jonathan Rakotondrasoa – Portfolio Analyste SOC</title>
+<meta name="description" content="Portfolio de Jonathan Rakotondrasoa, ingénieur cybersécurité et analyste SOC à Madagascar : investigations, homelab SOC, CTF forensic.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#0B1520}
+a{color:#6FD0DE;text-decoration:none}a:hover{color:#A8E6EF}
+.wrap{max-width:1120px;margin:0 auto;padding:0 32px;box-sizing:border-box}
+.eyebrow{margin:0 0 12px 0;font-family:'JetBrains Mono',monospace;font-size:0.8rem;letter-spacing:0.08em;color:#6FD0DE}
+.h2{margin:0 0 32px 0;font-family:'Space Grotesk',sans-serif;font-size:2.25rem;line-height:1.1;font-weight:700;color:#F2F6F9;text-wrap:balance}
+.card{background:#122233;border:1px solid #213549;border-radius:14px;padding:28px;box-sizing:border-box}
+.tag{display:inline-block;padding:4px 10px;border-radius:999px;background:#0B1520;border:1px solid #2A4258;font-family:'JetBrains Mono',monospace;font-size:0.75rem;color:#B9C8D6}
+.muted{color:#A9B8C6}
+.steps{margin:0;padding:0 0 0 20px;display:flex;flex-direction:column;gap:6px;color:#C9D6E0}
+.steps li::marker{color:#6FD0DE;font-family:'JetBrains Mono',monospace}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:46px;padding:0 22px;border-radius:10px;font-weight:600;font-size:0.95rem;box-sizing:border-box}
+.ph{display:flex;align-items:center;justify-content:center;min-height:180px;border:1px dashed #36506A;border-radius:10px;background:#0E1B28;color:#8EA3B6;font-family:'JetBrains Mono',monospace;font-size:0.8rem;text-align:center;padding:16px;box-sizing:border-box}
+</style>
+<style>html{scroll-behavior:smooth}</style>
+</head>
+<body>
+<div style="font-family: 'Inter', sans-serif; color: #DCE5EC; background: #0B1520; font-size: 1rem; line-height: 1.6">
+
+  <!-- Navigation -->
+  <header style="border-bottom: 1px solid #1B2C3D">
+    <div class="wrap" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-top: 18px; padding-bottom: 18px">
+      <a href="#accueil" style="display: flex; align-items: center; gap: 10px; color: #F2F6F9; font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.05rem">
+        <span style="display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 8px; background: #6FD0DE; color: #0B1520; font-size: 0.95rem">JR</span>
+        Jonathan Rakotondrasoa
+      </a>
+      <nav aria-label="Navigation principale" style="display: flex; flex-wrap: wrap; gap: 4px 22px; font-size: 0.92rem">
+        <a href="#projets" style="color: #C9D6E0">Projets</a>
+        <a href="#parcours" style="color: #C9D6E0">Parcours</a>
+        <a href="#competences" style="color: #C9D6E0">Compétences</a>
+        <a href="#contact" style="color: #C9D6E0">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="accueil" style="padding: 96px 0 72px 0">
+    <div class="wrap">
+      <p class="eyebrow">$ whoami</p>
+      <h1 style="margin: 0 0 20px 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(2.4rem, 6vw, 4.2rem); line-height: 1.02; font-weight: 700; color: #F2F6F9; letter-spacing: -0.02em; text-wrap: balance; max-width: 900px">Ingénieur cybersécurité, <span style="color: #6FD0DE">analyste SOC.</span></h1>
+      <p style="margin: 0 0 32px 0; max-width: 680px; font-size: 1.15rem; color: #B9C8D6; text-wrap: pretty">Je surveille, je qualifie les alertes et je remonte la trace des incidents, de la détection jusqu'à la remédiation. Près de 4 ans d'expérience chez BIRGER, à Madagascar, et une passion pour le forensic.</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px">
+        <a class="btn" href="#projets" style="background: #6FD0DE; color: #0B1520">Voir mes projets</a>
+        <a class="btn" href="CV_Jonathan_Rakotondrasoa.pdf" download style="border: 1px solid #36506A; color: #F2F6F9">Télécharger mon CV</a>
+        <a class="btn" href="https://www.linkedin.com/in/rakotondrasoa-jonathan" style="border: 1px solid #36506A; color: #F2F6F9">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Chiffres -->
+  <section aria-label="En bref" style="border-top: 1px solid #1B2C3D; border-bottom: 1px solid #1B2C3D; background: #0E1B28">
+    <div class="wrap" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 24px; padding-top: 36px; padding-bottom: 36px">
+      <div><p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700; color: #F2F6F9">~4 ans</p><p class="muted" style="margin: 0; font-size: 0.92rem">en cybersécurité chez BIRGER, dont 1 an d'alternance</p></div>
+      <div><p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700; color: #F2F6F9">Top 7</p><p class="muted" style="margin: 0; font-size: 0.92rem">à Madagascar sur TryHackMe</p></div>
+      <div><p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700; color: #F2F6F9">50 %+</p><p class="muted" style="margin: 0; font-size: 0.92rem">des challenges Forensic résolus sur Root-Me</p></div>
+      <div><p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 2rem; font-weight: 700; color: #F2F6F9">2 masters</p><p class="muted" style="margin: 0; font-size: 0.92rem">Cybersécurité (ESTI) et Ingénierie informatique (ESIEE-IT Paris)</p></div>
+    </div>
+  </section>
+
+  <!-- Projets -->
+  <section id="projets" style="padding: 96px 0 40px 0">
+    <div class="wrap">
+      <p class="eyebrow">// projets et investigations</p>
+      <h2 class="h2">Ce que je fais, concrètement</h2>
+
+      <div style="display: flex; flex-direction: column; gap: 24px">
+
+        <!-- Homelab -->
+        <article class="card" style="display: flex; flex-wrap: wrap; gap: 28px">
+          <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+            <p class="eyebrow" style="margin: 0">Projet 01 · Lab</p>
+            <h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; color: #F2F6F9">Homelab SOC</h3>
+            <p class="muted" style="margin: 0">Un mini-SOC monté chez moi pour pratiquer la collecte de logs et la détection sur plusieurs SIEM, et comparer leur façon de traiter les mêmes événements.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Wazuh</span><span class="tag">Splunk</span><span class="tag">Elastic Stack</span><span class="tag">Snort</span></div>
+          </div>
+          <div style="flex: 1 1 360px; min-width: 0; display: flex; flex-direction: column; gap: 8px" aria-label="Architecture du lab">
+            <p style="margin: 0 0 4px 0; font-weight: 600; color: #F2F6F9">Architecture</p>
+            <div style="padding: 12px 16px; border: 1px solid #2A4258; border-radius: 10px; background: #0E1B28"><span style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: #6FD0DE">01 · SOURCES</span><br>Postes Windows et Linux, trafic réseau</div>
+            <div style="padding: 12px 16px; border: 1px solid #2A4258; border-radius: 10px; background: #0E1B28"><span style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: #6FD0DE">02 · COLLECTE</span><br>Agents de collecte des logs, Snort (IDS) sur le réseau</div>
+            <div style="padding: 12px 16px; border: 1px solid #2A4258; border-radius: 10px; background: #0E1B28"><span style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: #6FD0DE">03 · ANALYSE</span><br>Wazuh, Splunk et Elastic Stack en parallèle</div>
+            <div style="padding: 12px 16px; border: 1px solid #2A4258; border-radius: 10px; background: #0E1B28"><span style="font-family: 'JetBrains Mono', monospace; font-size: 0.75rem; color: #6FD0DE">04 · RÉSULTAT</span><br>Alertes, détection et comparaison des outils</div>
+          </div>
+        </article>
+
+        <!-- Phishing -->
+        <article class="card" style="display: flex; flex-wrap: wrap; gap: 28px">
+          <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+            <p class="eyebrow" style="margin: 0">Projet 02 · Cas réel anonymisé</p>
+            <h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; color: #F2F6F9">Investigation d'une tentative de phishing</h3>
+            <p class="muted" style="margin: 0">Prise en charge de bout en bout d'un e-mail de phishing, de la détection à la remédiation.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Analyse d'e-mail</span><span class="tag">VirusTotal</span><span class="tag">MITRE ATT&amp;CK</span></div>
+          </div>
+          <div style="flex: 1 1 360px; min-width: 0">
+            <p style="margin: 0 0 10px 0; font-weight: 600; color: #F2F6F9">Démarche</p>
+            <ol class="steps">
+              <li>Analyse des en-têtes, des URL et des pièces jointes</li>
+              <li>Enrichissement des indicateurs via VirusTotal</li>
+              <li>Identification des indicateurs de compromission</li>
+              <li>Remédiation : blocage des adresses IP malveillantes</li>
+            </ol>
+          </div>
+        </article>
+
+        <!-- Infection -->
+        <article class="card" style="display: flex; flex-wrap: wrap; gap: 28px">
+          <div style="flex: 1 1 420px; min-width: 0; display: flex; flex-direction: column; gap: 14px">
+            <p class="eyebrow" style="margin: 0">Projet 03 · Cas réel anonymisé</p>
+            <h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 1.5rem; color: #F2F6F9">Investigation de l'infection d'un poste</h3>
+            <p class="muted" style="margin: 0">Analyse d'un poste infecté par un virus pour comprendre d'où venait l'infection, ce que faisait le malware et jusqu'où il s'était étendu, puis rédaction du rapport d'incident.</p>
+            <div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Logs Windows</span><span class="tag">Sandbox</span><span class="tag">Analyse de malware</span><span class="tag">Wazuh</span></div>
+          </div>
+          <div style="flex: 1 1 360px; min-width: 0">
+            <p style="margin: 0 0 10px 0; font-weight: 600; color: #F2F6F9">Démarche</p>
+            <ol class="steps">
+              <li>Analyse des journaux de la machine</li>
+              <li>Étude du comportement du poste</li>
+              <li>Confirmation de la détection et du blocage par l'EDR</li>
+              <li>Analyse dynamique de l'échantillon en sandbox pour identifier le type de malware et son comportement</li>
+              <li>Identification de l'origine et de l'étendue de l'infection</li>
+              <li>Remédiation : renforcement de la sécurité du poste et sensibilisation de l'utilisateur</li>
+            </ol>
+          </div>
+        </article>
+
+        <!-- CTF -->
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px">
+          <article class="card" style="display: flex; flex-direction: column; gap: 14px">
+            <p class="eyebrow" style="margin: 0">Projet 04 · CTF</p>
+            <h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; color: #F2F6F9">Root-Me : forensic et analyse post-incident</h3>
+            <p class="muted" style="margin: 0">Plus de 50 % des challenges Forensic résolus, et plus de 25 % des challenges Réseau et Réaliste.</p>
+            <a href="https://www.root-me.org/kirua-1067644" style="font-weight: 600; margin-top: auto">Voir mon profil Root-Me →</a>
+          </article>
+          <article class="card" style="display: flex; flex-direction: column; gap: 14px">
+            <p class="eyebrow" style="margin: 0">Projet 05 · Writeups</p>
+            <h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 1.35rem; color: #F2F6F9">TryHackMe et Hack The Box</h3>
+            <p class="muted" style="margin: 0">Parcours orientés blue team, avec des rapports d'investigation et des writeups. Top 7 à Madagascar sur TryHackMe.</p>
+            <a href="https://tryhackme.com/p/J0n4th4n.r" style="font-weight: 600; margin-top: auto">Voir mon profil TryHackMe →</a>
+          </article>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Parcours -->
+  <section id="parcours" style="padding: 72px 0 40px 0">
+    <div class="wrap">
+      <p class="eyebrow">// parcours</p>
+      <h2 class="h2">Du développement à la défense</h2>
+      <ol style="margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; border-left: 2px solid #213549">
+        <li style="position: relative; padding: 0 0 28px 28px">
+          <span aria-hidden="true" style="position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 999px; background: #6FD0DE"></span>
+          <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: #6FD0DE">Mai 2024 – aujourd'hui</p>
+          <p style="margin: 2px 0 4px 0; font-weight: 700; color: #F2F6F9; font-size: 1.1rem">Ingénieur Cybersécurité · BIRGER.</p>
+          <p class="muted" style="margin: 0">Surveillance SIEM avec Wazuh, triage et qualification des alertes, investigation d'incidents, support IT et réseau, développement web interne.</p>
+        </li>
+        <li style="position: relative; padding: 0 0 28px 28px">
+          <span aria-hidden="true" style="position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 999px; background: #36506A"></span>
+          <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: #6FD0DE">2024</p>
+          <p style="margin: 2px 0 4px 0; font-weight: 700; color: #F2F6F9; font-size: 1.1rem">Double master</p>
+          <p class="muted" style="margin: 0">Infrastructure &amp; Cybersécurité (ESTI, Madagascar) et Ingénierie Informatique (ESIEE-IT, Paris).</p>
+        </li>
+        <li style="position: relative; padding: 0 0 28px 28px">
+          <span aria-hidden="true" style="position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 999px; background: #36506A"></span>
+          <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: #6FD0DE">Juin 2023 – mai 2024</p>
+          <p style="margin: 2px 0 4px 0; font-weight: 700; color: #F2F6F9; font-size: 1.1rem">Alternance en cybersécurité · BIRGER.</p>
+        </li>
+        <li style="position: relative; padding: 0 0 28px 28px">
+          <span aria-hidden="true" style="position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 999px; background: #36506A"></span>
+          <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: #6FD0DE">2022</p>
+          <p style="margin: 2px 0 4px 0; font-weight: 700; color: #F2F6F9; font-size: 1.1rem">Licence Développement &amp; Intégration · ESTI</p>
+        </li>
+        <li style="position: relative; padding: 0 0 0 28px">
+          <span aria-hidden="true" style="position: absolute; left: -7px; top: 6px; width: 12px; height: 12px; border-radius: 999px; background: #36506A"></span>
+          <p style="margin: 0; font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; color: #6FD0DE">2020 – 2022</p>
+          <p style="margin: 2px 0 4px 0; font-weight: 700; color: #F2F6F9; font-size: 1.1rem">Développeur Junior Web &amp; Python · SOAMADIGNA</p>
+          <p class="muted" style="margin: 0">Applications web et scripts Python, une base que j'utilise aujourd'hui pour automatiser et analyser du code.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Compétences -->
+  <section id="competences" style="padding: 72px 0 40px 0">
+    <div class="wrap">
+      <p class="eyebrow">// compétences et certifications</p>
+      <h2 class="h2">Ma boîte à outils</h2>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px">
+        <div class="card" style="padding: 22px"><p style="margin: 0 0 10px 0; font-weight: 700; color: #F2F6F9">SIEM et détection</p><div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Wazuh</span><span class="tag">Splunk</span><span class="tag">ELK</span><span class="tag">Snort</span></div></div>
+        <div class="card" style="padding: 22px"><p style="margin: 0 0 10px 0; font-weight: 700; color: #F2F6F9">EDR et requêtes</p><div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">CrowdStrike Falcon</span><span class="tag">KQL</span></div></div>
+        <div class="card" style="padding: 22px"><p style="margin: 0 0 10px 0; font-weight: 700; color: #F2F6F9">Analyse</p><div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">Logs Windows/Linux</span><span class="tag">Wireshark</span><span class="tag">Phishing</span><span class="tag">VirusTotal</span><span class="tag">Forensic</span></div></div>
+        <div class="card" style="padding: 22px"><p style="margin: 0 0 10px 0; font-weight: 700; color: #F2F6F9">Référentiels et scripting</p><div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">MITRE ATT&amp;CK</span><span class="tag">MITRE D3FEND</span><span class="tag">NIST</span><span class="tag">Python</span><span class="tag">Bash</span></div></div>
+      </div>
+
+      <div class="card" style="margin-top: 20px; display: flex; flex-wrap: wrap; gap: 24px 48px">
+        <div style="flex: 1 1 320px">
+          <p style="margin: 0 0 10px 0; font-weight: 700; color: #F2F6F9">Certifications</p>
+          <ul style="margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 4px" class="muted">
+            <li>TryHackMe SAL1 – Security Analyst Level 1</li>
+            <li>Fortinet NSE 1, 2 et 3</li>
+            <li>CrowdStrike</li>
+            <li>Cisco Networking Academy – Réseaux et Ethical Hacking</li>
+            <li>Holberton School – Python et IA générative</li>
+          </ul>
+        </div>
+        <div style="flex: 1 1 260px">
+          <p style="margin: 0 0 10px 0; font-weight: 700; color: #F2F6F9">En préparation</p>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px"><span class="tag">TryHackMe SAL2</span><span class="tag">CompTIA Security+</span><span class="tag">CompTIA CySA+</span><span class="tag">Fortinet NSE 4</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" style="padding: 96px 0">
+    <div class="wrap">
+      <div class="card" style="padding: 48px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 24px">
+        <div style="flex: 1 1 420px">
+          <p class="eyebrow">// contact</p>
+          <h2 class="h2" style="margin-bottom: 12px">Je cherche un nouveau poste dans la blue team.</h2>
+          <p class="muted" style="margin: 0">Parlons-en : je réponds vite par e-mail et sur LinkedIn.</p>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; gap: 12px">
+          <a class="btn" href="mailto:rakotondrasoa.jonathan@gmail.com" style="background: #6FD0DE; color: #0B1520">M'écrire</a>
+          <a class="btn" href="https://www.linkedin.com/in/rakotondrasoa-jonathan" style="border: 1px solid #36506A; color: #F2F6F9">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer style="border-top: 1px solid #1B2C3D">
+    <div class="wrap" style="padding-top: 24px; padding-bottom: 24px; font-size: 0.85rem; color: #8EA3B6">Jonathan Rakotondrasoa · Ingénieur cybersécurité · Madagascar</div>
+  </footer>
+
+</div>
+</body>
+</html>
